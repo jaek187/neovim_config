@@ -7,6 +7,7 @@ conform.setup({
         c = { 'clang-format' },
         cpp = { 'clang-format' },
         python = { 'ruff_format' },
+        rust = { name = 'rust_analyzer', timeout_ms = 500, lsp_format = 'prefer' },
     },
     format_on_save = function(bufnr)
         local disabled_filetypes = { c = true, cpp = true }

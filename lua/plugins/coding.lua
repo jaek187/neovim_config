@@ -102,6 +102,7 @@ local language_servers = {
     'lua_ls',
     'clangd',
     'pyrefly',
+    'rust_analyzer',
 }
 
 local formatters = {
