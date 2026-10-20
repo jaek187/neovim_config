@@ -109,6 +109,7 @@ local formatters = {
     'stylua',
     'clang-format',
     'ruff',
+    'prettier',
 }
 
 local linters = {
